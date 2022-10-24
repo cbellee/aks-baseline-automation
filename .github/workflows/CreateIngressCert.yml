@@ -10,12 +10,12 @@ on:
         required: true
         type: environment
       DOMAIN:
-        description: 'The domain name to use for the certs (ie: contoso.com)'
+        description: 'The domain name to use for the certs (ie: kainiindustries.net)'
         required: true
-        default: 'contoso.com'
+        default: 'kainiindustries.net'
         type: string
       CN:
-        description: 'The CN to be used along with the Domain (ie: bicycle will result in fqdn of bycicle.contoso.com)'
+        description: 'The CN to be used along with the Domain (ie: bicycle will result in fqdn of bicycle.kainiindustries.net)'
         required: true
         default: 'bicycle'
         type: string

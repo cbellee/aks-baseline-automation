@@ -506,7 +506,7 @@ module registries './Microsoft.ContainerRegistry/registries/deploy.bicep' = {
     webhooks: [
       {
         name: '<<namePrefix>>azacrx001webhook'
-        serviceUri: 'https://www.contoso.com/webhook'
+        serviceUri: 'https://www.kainiindustries.net/webhook'
       }
     ]
   }
@@ -604,7 +604,7 @@ module registries './Microsoft.ContainerRegistry/registries/deploy.bicep' = {
       "value": [
         {
           "name": "<<namePrefix>>azacrx001webhook",
-          "serviceUri": "https://www.contoso.com/webhook"
+          "serviceUri": "https://www.kainiindustries.net/webhook"
         }
       ]
     }
